@@ -421,6 +421,7 @@ impl Generator {
             /// Types used as operation parameters and responses.
             #[allow(clippy::all)]
             pub mod types {
+                #[allow(unused_imports)]
                 use serde::{Deserialize, Serialize};
 
                 // This may be used by some impl Deserialize, but not all.
